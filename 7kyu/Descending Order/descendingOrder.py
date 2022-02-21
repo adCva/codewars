@@ -1,4 +1,4 @@
-def descending_order(num):
-    array = list(str(num))
-    array.sort(reverse = True)
-    return int(''.join(array))
+def high_and_low(numbers):
+    array = numbers.split()
+    array.sort()
+    return array[0], array[-1]
