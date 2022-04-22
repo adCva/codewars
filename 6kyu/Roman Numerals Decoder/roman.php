@@ -26,3 +26,12 @@ function solution($roman) {
 
     return $num;
 }
+
+
+
+// solution("XIV");
+// solution("XXI");
+// solution("I");
+// solution("IV");
+// solution("MMVIII");
+// solution("MDCLXVI");
