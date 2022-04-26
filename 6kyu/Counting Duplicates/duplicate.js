@@ -13,11 +13,3 @@ function duplicateCount(text){
 // duplicateCount("aabbcde");
 // duplicateCount("Indivisibility");
 // duplicateCount("Indivisibilities");
-
-
-// Best practice;
-/*
-    function duplicateCount(text){
-        return (text.toLowerCase().split('').sort().join('').match(/([^])\1+/g) || []).length;
-    }
-*/

@@ -12,9 +12,3 @@ def duplicate_count(text):
 # duplicate_count("aabbcde");
 # duplicate_count("Indivisibility");
 # duplicate_count("Indivisibilities");
-
-
-# Best practice
-
-# def duplicate_count(s):
-#   return len([c for c in set(s.lower()) if s.lower().count(c)>1])
